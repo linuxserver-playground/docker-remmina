@@ -8,9 +8,9 @@ summary: |-
 upstream:
   url: https://remmina.org/
   version:
-    type: command
-    run: |-
-      curl -s -L https://security.ubuntu.com/ubuntu/dists/resolute-security/main/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: remmina' | awk -F ': ' '/Version/{print $2;exit}'
+    type: deb_packages
+    index_url: https://security.ubuntu.com/ubuntu/dists/resolute-security/main/binary-amd64/Packages.gz
+    package: remmina
 
 release:
   branch: master
