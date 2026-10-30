@@ -11,6 +11,13 @@ upstream:
     type: deb_packages
     index_url: https://security.ubuntu.com/ubuntu/dists/resolute-security/main/binary-amd64/Packages.gz
     package: remmina
+  sponsor:
+  - name: Remmina donations
+    url: https://remmina.org/donations/
+  - name: Liberapay
+    url: https://liberapay.com/Remmina/donate
+  - name: Open Collective
+    url: https://opencollective.com/remmina
 
 release:
   branch: master
