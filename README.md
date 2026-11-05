@@ -28,7 +28,7 @@ Find us at:
 [![GitHub Release](https://img.shields.io/github/release/linuxserver-playground/docker-remmina.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver-playground/docker-remmina/releases)
 [![GitHub Package Repository](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub%20Package&logo=github)](https://github.com/linuxserver-playground/docker-remmina/packages)
 [![Docs](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Docs&logo=materialformkdocs)](https://linuxserver-playground.github.io/site/images/remmina/)
-[![CI](https://ci.thelamer.duckdns.org:8443/badge/remmina/latest.svg)](https://ci.thelamer.duckdns.org:8443/images/remmina/latest)
+[![Builds](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Builds&logo=githubactions)](https://linuxserver-playground.github.io/site/images/remmina/#builds)
 
 [Remmina](https://remmina.org/) is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface. Currently RDP, VNC, SPICE, SSH and EXEC are supported.
 
@@ -348,7 +348,7 @@ docker run --rm --privileged ghcr.io/linuxserver/qemu-static --reset
 
 Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64`.
 
-Every push builds and tests the image with the shared workflow in [`linuxserver-playground/workflows`](https://github.com/linuxserver-playground/workflows); the results for this tag are shown on the [CI status page](https://ci.thelamer.duckdns.org:8443/images/remmina/latest).
+Every push builds and tests the image with the shared workflow in [`linuxserver-playground/workflows`](https://github.com/linuxserver-playground/workflows); every build's tests, screenshots and package changes are on [the image's builds](https://linuxserver-playground.github.io/site/images/remmina/#builds) on the website.
 
 ## Versions
 
